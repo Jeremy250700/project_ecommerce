@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "email": "userTest1@user.com",
+      "password": "$2a$10$RPP013oTDiPc1/bOBFhxYOINA8N7rAGsJHSV2SjBl6brQQ.VqmbhG",
+      "username": "User 1",
+      "role": "customer",
+      "id": 1
+    },
+    {
+      "email": "userTest2@user.com",
+      "password": "$2a$10$KXoMgtaPAb0XAcZ5Z4/H6u0WOZkDS81VO7jerJZj2DKJnC9oYizB.",
+      "username": "User 2",
+      "role": "customer",
+      "id": 2
+    },
+    {
+      "email": "userTest3@user.com",
+      "password": "$2a$10$dYC63ghOxtH5jUHvTDlOy.FsaoJLOqFO4Hk6ZHbVUsLD6S5R6CjOW",
+      "username": "User 3",
+      "role": "customer",
+      "id": 3
+    },
+    {
+      "email": "admin123@admin.com",
+      "password": "$2a$10$UQw4q3cmthQ2eV6KajOTNOVGhbiIEeSq.B4mKaQKbo.1CAjjWLO2q",
+      "role": "admin",
+      "username": "Admin 1",
+      "id": 4
+    }
+  ],
+  "proteinEnergySnacks": [
+    {
+      "id": 1,
+      "name": "TRIPLE DECKER",
+      "qty": "12 Pack",
+      "price": 24,
+      "image": "https://iili.io/HgyhjSt.jpg"
+    },
+    {
+      "id": 2,
+      "name": "BARS OF GOLD BUNDLE",
+      "qty": "24 Best TRIBE Bars",
+      "price": 42,
+      "image": "https://iili.io/HgyhhlI.jpg"
+    },
+    {
+      "id": 3,
+      "name": "PROTEIN FLAPJACK",
+      "qty": "12 Pack",
+      "price": 18,
+      "image": "https://iili.io/HgyhXKN.jpg"
+    },
+    {
+      "id": 4,
+      "name": "BUILD YOUR OWN",
+      "qty": "16 Pack",
+      "price": 32,
+      "image": "https://iili.io/HgyhNHX.jpg"
+    },
+    {
+      "id": 5,
+      "name": "TRIAL PACK",
+      "qty": "6 Pack",
+      "price": 12,
+      "image": "https://iili.io/HgyhNHX.jpg"
+    }
+  ],
+  "carts": [],
+  "transactions": [
+    {
+      "userId": 1,
+      "email": "",
+      "full_name": "",
+      "no_card": "",
+      "mm_yy": "",
+      "cvc": "",
+      "address": "",
+      "state": "state",
+      "zip": "",
+      "total": 0,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "email": "jeremysaputra25@gmail.com",
+      "full_name": "",
+      "no_card": "",
+      "mm_yy": "",
+      "cvc": "",
+      "address": "Jalan Filisium no 7",
+      "state": "state",
+      "zip": "65148",
+      "total": 24,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "email": "user1@user1.com",
+      "full_name": "user123",
+      "no_card": "0987654321",
+      "mm_yy": "1020",
+      "cvc": "9090",
+      "address": "Jalan Filisium no 7",
+      "state": "state",
+      "zip": "65148",
+      "total": 174,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "email": "user@user.com",
+      "full_name": "user",
+      "no_card": "user1234567890",
+      "mm_yy": "0000",
+      "cvc": "131",
+      "address": "use",
+      "state": "state",
+      "zip": "user",
+      "total": 32,
+      "id": 4
+    }
+  ],
+  "transaction_details": [
+    {
+      "transactionId": 1,
+      "proteinEnergySnackId": 1,
+      "quantity": 3,
+      "id": 1
+    },
+    {
+      "transactionId": 1,
+      "proteinEnergySnackId": 2,
+      "quantity": 2,
+      "id": 2
+    },
+    {
+      "transactionId": 2,
+      "proteinEnergySnackId": 1,
+      "quantity": 1,
+      "id": 3
+    },
+    {
+      "transactionId": 3,
+      "proteinEnergySnackId": 1,
+      "quantity": 3,
+      "id": 4
+    },
+    {
+      "transactionId": 3,
+      "proteinEnergySnackId": 2,
+      "quantity": 2,
+      "id": 5
+    },
+    {
+      "transactionId": 3,
+      "proteinEnergySnackId": 3,
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "transactionId": 4,
+      "proteinEnergySnackId": 4,
+      "quantity": 1,
+      "id": 7
+    }
+  ]
+}
